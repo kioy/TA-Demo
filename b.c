@@ -12,10 +12,10 @@ void* foo () {
 	if (p) {
 
 		p[0] = 'x';
+		p[20] = 'Y';
 
 	}
 
-	p[20] = 'Y';
 
 	return p;
 }
