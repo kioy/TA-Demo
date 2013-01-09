@@ -9,7 +9,7 @@ void* foo () {
 	char* p;
 
 	p = yymalloc(20);
-	if (!p) {
+	if (p) {
 
 		p[0] = 'x';
 
