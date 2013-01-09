@@ -15,5 +15,7 @@ void* foo () {
 
 	}
 
+	p[20] = 'Y';
+
 	return p;
 }
