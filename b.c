@@ -7,6 +7,7 @@ void* foo () {
 
 	int x = 20;
 	char* p;
+	char* q;
 
 	p = yymalloc(20);
 	if (p) {
@@ -16,6 +17,7 @@ void* foo () {
 
 	}
 
+	q = yymalloc(20);
 
 	return p;
 }
